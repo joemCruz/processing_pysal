@@ -8,6 +8,8 @@ from dtheil import TheilDSim
 from neighborsetLIMA import NeighborSetLIMA
 from neighborhoodsetLIMA import NeighborhoodSetLIMA
 
+from markov import Markov
+
 class pysalProvider(AlgorithmProvider):
 
     def __init__(self):
@@ -19,7 +21,8 @@ class pysalProvider(AlgorithmProvider):
                         MoranLocal(),MoranLocalRate(),
                         GLocal(),
                         TheilDSim(),
-                        NeighborSetLIMA(),NeighborhoodSetLIMA()]
+                        NeighborSetLIMA(),NeighborhoodSetLIMA(),
+                        Markov()]
         for alg in self.alglist:
             alg.provider = self
 
