@@ -90,4 +90,4 @@ This system will provide the necessary integration between PySAL and QGIS with t
   5. November 28: Begin making presentation.
   6. December 6 : Presentation
 2. Repository
-  1. URL: [https://github.com/joemCruz/processing_pysal/tree/test]
+  1. URL: [https://github.com/joemCruz/processing_pysal/tree/joesTest]
