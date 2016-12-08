@@ -58,7 +58,7 @@ Markov, then, one would have to do the following:
  * markovSpatial.py
 2. Within the same directory, access pysalprovider.py, and add the following lines and save:
 
-![pysalProviderUpdate](png/pysal_provider_add_new.png)
+![pysalProviderUpdate] (png/pysal_provider_add_new.png)
 3. If QGIS is already running, restart it for the changes to take effect.
 4. The Markov modules are found within the spatial dynamics group within Pysal Toolkit
 
