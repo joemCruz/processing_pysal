@@ -8,7 +8,10 @@ from dtheil import TheilDSim
 from neighborsetLIMA import NeighborSetLIMA
 from neighborhoodsetLIMA import NeighborhoodSetLIMA
 
-from markov import Markov
+#from markov import Markov
+from markovClassic import MarkovClassic
+from markovLISA import MarkovLISA
+from markovSpatial import MarkovSpatial
 
 class pysalProvider(AlgorithmProvider):
 
@@ -22,7 +25,8 @@ class pysalProvider(AlgorithmProvider):
                         GLocal(),
                         TheilDSim(),
                         NeighborSetLIMA(),NeighborhoodSetLIMA(),
-                        Markov()]
+                        #Markov(),
+                        MarkovClassic(),MarkovLISA(),MarkovSpatial()]
         for alg in self.alglist:
             alg.provider = self
 
