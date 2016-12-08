@@ -45,3 +45,19 @@ instead of trying to install the software.
 * You should be able to see the plugin in the Processing Toolbox now. 
 
 ![sofar](png/sofar.png)
+
+## Adding Markov Changes
+This version of processing_pysal can be installed according the instructions above.
+However, if one already has processing_pysal installed and would just like to add the
+functionality of the Markov chaining modules: Classic Markov, Spatial Markov, and LISA
+Markov, then, one would have to do the following:
+
+1. Add the following files to the processing_pysal directory:
+ * markovClassic.py
+ * markovLISA.py
+ * markovSpatial.py
+2. Within the same directory, access pysalprovider.py, and add the following lines and save:
+ * [pysalProviderUpdate](png/pysal_provider_add_new.jpg)
+3. If QGIS is already running, restart it for the changes to take effect.
+4. The Markov modules are found within the spatial dynamics group within Pysal Toolkit
+
